@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# begin bash-it section
 # Path to the bash it configuration
 export BASH_IT="/Users/brookebeacham/.bash_it"
 
@@ -41,3 +42,7 @@ export BASH_IT_CUSTOM=$HOME/.bash_custom
 
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
+
+# end bash-it section
+# rbenv statement
+eval "$(rbenv init -)"
