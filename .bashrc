@@ -46,3 +46,5 @@ source "$BASH_IT"/bash_it.sh
 # end bash-it section
 # rbenv statement
 eval "$(rbenv init -)"
+
+export NIB_CRYPT_BUCKET_NAME=tk-secrets
