@@ -10,12 +10,17 @@ brew 'mas'
 # brew apps
 brew 'ag'
 brew 'awscli'
+brew 'bat'
 brew 'chunkwm'
+brew 'diff-so-fancy'
 brew 'docker'
 brew 'exa'
+brew 'freetds'
 brew 'git'
+brew 'gpg'
 brew 'heroku'
 brew 'hub'
+brew 'jq'
 brew 'neovim'
 brew 'postgresql'
 brew 'rbenv'
@@ -25,7 +30,10 @@ brew 'wget'
 
 # casks
 cask 'atom'
+cask 'firefox'
+cask 'java'
 #cask 'kitty'
+cask 'codeship/taps/jet'
 
 # app store apps
 mas 'ssh-tunnel',      id: 734418810
