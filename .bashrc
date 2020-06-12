@@ -48,3 +48,10 @@ source "$BASH_IT"/bash_it.sh
 eval "$(rbenv init -)"
 
 export NIB_CRYPT_BUCKET_NAME=tk-secrets
+
+export PGOPTIONS="-c search_path=public,source"
+export PGUSER=docker
+export PGPASSWORD=docker
+export PGHOST=localhost
+export PGDATABASE=corteva-edp-interlok
+export PGPORT=10029

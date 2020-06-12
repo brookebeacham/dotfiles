@@ -1,14 +1,16 @@
 cask_args appdir: "/Applications"
 
 # taps
-tap 'caskroom/cask'
+tap 'homebrew/cask-cask'
 tap 'crisidev/homebrew-chunkwm'
+tap 'microsoft/mssql-release', "https://github.com/Microsoft/homebrew-mssql-release"
 
 # plug-ins
 brew 'mas'
 
 # brew apps
 brew 'ag'
+brew 'autojump'
 brew 'awscli'
 brew 'bat'
 brew 'chunkwm'
@@ -23,13 +25,15 @@ brew 'hub'
 brew 'jq'
 brew 'neovim'
 brew 'postgresql'
+brew 'python'
 brew 'rbenv'
 brew 'readline'
 brew 'wget'
 #brew install koekeishiya/formulae/skhd
+brew 'mssql-tools'
 
 # casks
-cask 'atom'
+#cask 'atom'
 cask 'firefox'
 cask 'java'
 #cask 'kitty'
@@ -38,7 +42,7 @@ cask 'codeship/taps/jet'
 # app store apps
 mas 'ssh-tunnel',      id: 734418810
 mas 'monosnap',        id: 540348655
-mas 'evernote',        id: 406056744
+#smas 'evernote',        id: 406056744
 mas 'lastpass',        id: 926036361
 
 # other

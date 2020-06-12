@@ -7,3 +7,7 @@ alias git=hub
 alias irb='docker-ruby'
 alias la='exa -la --git'
 alias gl='gg'
+alias wter='curl wttr.in'
+alias nid='nib integrate down corteva-edp-interlok eventide-example-docker'
+alias niu='nib integrate up corteva-edp-interlok eventide-example-docker'
+
