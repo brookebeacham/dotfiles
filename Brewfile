@@ -1,8 +1,8 @@
 cask_args appdir: "/Applications"
 
 # taps
-tap 'homebrew/cask-cask'
-tap 'crisidev/homebrew-chunkwm'
+#tap 'homebrew/cask-cask'
+#tap 'crisidev/homebrew-chunkwm'
 tap 'microsoft/mssql-release', "https://github.com/Microsoft/homebrew-mssql-release"
 
 # plug-ins
@@ -11,11 +11,13 @@ brew 'mas'
 # brew apps
 brew 'ag'
 brew 'autojump'
+brew 'python'
 brew 'awscli'
 brew 'bat'
 brew 'chunkwm'
 brew 'diff-so-fancy'
-brew 'docker'
+# let docker do its own thing?
+#brew 'docker'
 brew 'exa'
 brew 'freetds'
 brew 'git'
@@ -25,7 +27,6 @@ brew 'hub'
 brew 'jq'
 brew 'neovim'
 brew 'postgresql'
-brew 'python'
 brew 'rbenv'
 brew 'readline'
 brew 'wget'
